@@ -8,3 +8,7 @@ $ dotnet publish HeadlessChrome.WindowsService.csproj -c Release -f netcoreapp2.
 $ sc create WebSnapshotService binPath="C:\Publish\HeadlessChrome.WindowsService\HeadlessChrome.WindowsService.exe"
 $ sc start WebSnapshotService
 ```
+
+## 使用
+
+* http://localhost:5123/?u=https%3A%2F%2Fmedium.com%2F%40dschnr%2Fusing-headless-chrome-as-an-automated-screenshot-tool-4b07dffba79a
